@@ -1,0 +1,12 @@
+Source: ros-indigo-edge-leg-detector
+Section: misc
+Priority: extra
+Maintainer: Marco Antonio Becerra Pedraza <marcobecerrap@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-sensor-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-edge-leg-detector
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-indigo-geometry-msgs, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-sensor-msgs
+Description: A leg detector that identifies three different leg patterns based on the paper of Nicholas Belloto
